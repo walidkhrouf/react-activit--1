@@ -1,4 +1,4 @@
-// 1️
+// 1
 export const findLongestWord = (words) => {
     let [first, ...rest] = words;
     
@@ -12,7 +12,7 @@ export const findLongestWord = (words) => {
 
 
 
-// 2️
+// 2
 export const countOccurrences = (nestedArray) => {
     return nestedArray.flat().reduce((acc, word) => {
         acc[word] = (acc[word] || 0) + 1;
@@ -21,7 +21,7 @@ export const countOccurrences = (nestedArray) => {
 };
 
 
-// 3️
+// 3
 export const students = [];
 
 export const totalScore = (students) => {
